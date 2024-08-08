@@ -1,0 +1,27 @@
+$cor_titulos: #f74780;
+$font_stack:"Roboto", sans-serif;
+
+*{
+  font-family: $font_stack;
+  background-color: #add8e6;
+  margin-left: 0px;
+}
+
+img{
+  border-radius: 50%;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+ .intro, .favoritos{
+  margin-left: 100px;
+ }
+
+h1{
+  color: $cor_titulos;
+}
+
+.grifado{
+  text-decoration: underline;
+}
